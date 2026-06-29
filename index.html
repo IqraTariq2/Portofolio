@@ -1,0 +1,1468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Iqra Tariq - Full Stack Developer & Creative Technologist. Crafting premium digital experiences with modern web technologies.">
+    <meta name="keywords" content="Iqra Tariq, Full Stack Developer, Web Developer, Portfolio, Creative Technologist, Frontend, Backend">
+    <meta name="author" content="Iqra Tariq">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://iqratariq.dev/">
+    <meta property="og:title" content="Iqra Tariq | Full Stack Developer & Creative Technologist">
+    <meta property="og:description" content="Crafting premium digital experiences with modern web technologies.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=1200">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://iqratariq.dev/">
+    <meta property="twitter:title" content="Iqra Tariq | Full Stack Developer">
+    <meta property="twitter:description" content="Crafting premium digital experiences with modern web technologies.">
+
+    <title>Iqra Tariq | Full Stack Developer & Creative Technologist</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- ============ PRELOADER ============ -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-logo">Welcome to my Portfolio</div>
+            <div class="preloader-bar">
+                <div class="preloader-progress"></div>
+            </div>
+            <p class="preloader-text">Loading Experience...</p>
+        </div>
+    </div>
+
+    <!-- ============ SCROLL PROGRESS ============ -->
+    <div class="scroll-progress" id="scrollProgress">
+        <div class="scroll-progress-bar"></div>
+    </div>
+
+    <!-- ============ NAVBAR ============ -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-bracket">{</span>
+                <span class="logo-text">Iqra</span>
+                <span class="logo-bracket">}</span>
+            </a>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Projects</a></li>
+                <li><a href="#Reviews" class="nav-link">Reviews</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="#contact" class="nav-cta">Request a Quote</a>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============ HERO SECTION ============ -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="gradient-blob blob-1"></div>
+            <div class="gradient-blob blob-2"></div>
+            <div class="gradient-blob blob-3"></div>
+            <div class="grid-pattern"></div>
+            <div id="particles-js" class="particles-container"></div>
+        </div>
+
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    <span>Entrepreneur | Software Engineer</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Iqra Tariq</span>
+                </h1>
+                
+                <div class="hero-typing">
+                    <span class="typing-prefix">I'm a </span>
+                    <span class="typed" id="typed"></span>
+                </div>
+
+                <p class="hero-description">
+                    I craft premium digital experiences that blend stunning design with 
+                    powerful functionality. Specializing in modern web technologies, 
+                    I transform ideas into elegant, high-performance applications.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary magnetic no-ripple">
+                        <span>Request a Quote</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="Iqra Tariq CV.pdf" download class="btn btn-secondary magnetic" id="downloadCV">
+                        <i class="fas fa-download"></i>
+                        <span>Download CV</span>
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <span class="social-label">Follow me</span>
+                    <div class="social-divider"></div>
+                    <div class="social-icons">
+                        <a href="https://github.com/IqraTariq048" class="social-icon magnetic" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/iqra-tariq-3ba110341/" class="social-icon magnetic" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual" data-aos="fade-left" data-aos-duration="1000">
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-bg"></div>
+                    <div class="hero-image">
+                        <img src="Untitled design.png" alt="Iqra Tariq" loading="lazy">
+                    </div>
+                    <div class="floating-icon icon-1" data-speed="2">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <div class="floating-icon icon-2" data-speed="3">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <div class="floating-icon icon-3" data-speed="1.5">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="floating-icon icon-4" data-speed="2.5">
+                        <i class="fab fa-figma"></i>
+                    </div>
+                    <div class="floating-icon icon-5" data-speed="1.8">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <div class="floating-icon icon-6" data-speed="2.2">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat-card glass-card">
+                        <div class="stat-icon"><i class="fas fa-code"></i></div>
+                        <div class="stat-info">
+                            <h4>25+</h4>
+                            <p>Projects Done</p>
+                        </div>
+                    </div>
+                    <div class="stat-card glass-card">
+                        <div class="stat-icon"><i class="fas fa-users"></i></div>
+                        <div class="stat-info">
+                            <h4>10+</h4>
+                            <p>Happy Clients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll Down</p>
+        </div>
+    </section>
+
+    <!-- ============ ABOUT SECTION ============ -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">Know Me <span class="gradient-text">Better</span></h2>
+                <p class="section-subtitle">A passionate developer with a love for creating beautiful, functional digital experiences</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="about-image-wrapper">
+                        <div class="about-image-bg"></div>
+                        <img src="Brown Aesthetic Girl Facebook Profile Picture - 1.png" alt="Iqra Tariq" loading="lazy">
+                        <div class="experience-badge">
+                            <span class="exp-number">2+</span>
+                            <span class="exp-text">Years<br>Experience</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-content" data-aos="fade-left">
+                    <div class="about-tabs">
+                        <button class="tab-btn active" data-tab="about-info">
+                            <i class="fas fa-user"></i>
+                            <span>About</span>
+                        </button>
+                        <button class="tab-btn" data-tab="experience">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Experience</span>
+                        </button>
+                        <button class="tab-btn" data-tab="education">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Education</span>
+                        </button>
+                    </div>
+
+                    <div class="tab-content active" id="about-info">
+                        <h3 class="about-heading">Full Stack Developer & Creative Technologist</h3>
+                        <p class="about-text">
+                            I'm Iqra Tariq, a passionate full-stack developer based in Lahore Pakistan with over 2 years 
+                            of experience building digital products. I specialize in creating scalable web applications 
+                            that combine beautiful design with robust engineering.
+                        </p>
+                        <p class="about-text">
+                            My journey began with a curiosity about how things work on the web, which evolved into a 
+                            deep expertise in modern JavaScript frameworks, and UI/UX design and AI and Machine Learning. 
+                            I believe in writing clean, maintainable and efficient code and creating experiences that delight users.
+                        </p>
+
+                        <div class="about-info-grid">
+                            <div class="info-item">
+                                <span class="info-label">Name:</span>
+                                <span class="info-value">Iqra Tariq</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Age:</span>
+                                <span class="info-value">28 Years</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Email:</span>
+                                <span class="info-value">iqra02725@gmail.com</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">From:</span>
+                                <span class="info-value">Lahore, Pakistan</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Phone:</span>
+                                <span class="info-value">+92 301-4911207</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Freelance:</span>
+                                <span class="info-value success">Available</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">July 2025 - December 2025</span>
+                                    <h4>Full Stack Web Developer</h4>
+                                    <h5>Digital Empowerment Network</h5>
+                                    <p>Leading a team of 8 developers, architecting scalable solutions for enterprise clients. Increased platform performance by 40%.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">January 2026 - March 2026</span>
+                                    <h4>Machine Learning Intern</h4>
+                                    <h5>Arch Technologies</h5>
+                                    <p> Assist in building and training ML models for data classification and pattern recognition tasks. Preprocess and clean large datasets using Python (Pandas, NumPy) for model training. Document model performance metrics and contribute to technical reports.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">January 2026 - March 2026</span>
+                                    <h4>Freelancer</h4>
+                                    <h5>Free Lance</h5>
+                                    <p>Offering support in developing and deploying machine learning solutions for various business applications.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-content" id="education">
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">2014 - 2018</span>
+                                    <h4>B.S. Software Engineering</h4>
+                                    <h5>Lahore Garrison University</h5>
+                                    <p>Graduated with honors. Specialized in Software Engineering and Human-Computer Interaction. GPA: 3.6/4.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ SKILLS SECTION ============ -->
+    <section class="skills section" id="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">My Skills</span>
+                <h2 class="section-title">Technical <span class="gradient-text">Expertise</span></h2>
+                <p class="section-subtitle">A comprehensive toolkit built over years of dedicated practice and real-world projects</p>
+            </div>
+
+            <div class="skills-tabs" data-aos="fade-up">
+                <button class="skill-tab active" data-category="frontend">
+                    <i class="fas fa-palette"></i>
+                    <span>Frontend</span>
+                </button>
+                <button class="skill-tab" data-category="backend">
+                    <i class="fas fa-server"></i>
+                    <span>Backend</span>
+                </button>
+                <button class="skill-tab" data-category="ai">
+                    <i class="fas fa-brain"></i>
+                    <span>AI / ML</span>
+                </button>
+                <button class="skill-tab" data-category="programming">
+                    <i class="fas fa-code"></i>
+                    <span>Programming</span>
+                </button>
+                <button class="skill-tab" data-category="database">
+                    <i class="fas fa-database"></i>
+                    <span>Database</span>
+                </button>
+                <button class="skill-tab" data-category="tools">
+                    <i class="fas fa-tools"></i>
+                    <span>Tools</span>
+                </button>
+            </div>
+
+            <div class="skills-content" data-aos="fade-up">
+                <!-- Frontend Skills -->
+                <div class="skills-category active" id="frontend">
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="95">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">95%</div>
+                            </div>
+                            <h4>React / Next.js</h4>
+                            <p>Advanced</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="98">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">98%</div>
+                            </div>
+                            <h4>JavaScript / TS</h4>
+                            <p>Expert</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="96">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">96%</div>
+                            </div>
+                            <h4>Tailwind CSS</h4>
+                            <p>Expert</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="90">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">90%</div>
+                            </div>
+                            <h4>Ajax | jQuery</h4>
+                            <p>Expert</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="88">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">88%</div>
+                            </div>
+                            <h4>WordPress</h4>
+                            <p>Advanced</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend Skills -->
+                <div class="skills-category" id="backend">
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="93">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">93%</div>
+                            </div>
+                            <h4>Node.js / Express</h4>
+                            <p>Expert</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="88">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">88%</div>
+                            </div>
+                            <h4>Python / Django</h4>
+                            <p>Advanced</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="85">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">85%</div>
+                            </div>
+                            <h4>PHP</h4>
+                            <p>Advanced</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="90">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">90%</div>
+                            </div>
+                            <h4>REST APIs</h4>
+                            <p>Expert</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="87">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">87%</div>
+                            </div>
+                            <h4>Microservices</h4>
+                            <p>Advanced</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AI Skills -->
+                <div class="skills-category" id="ai">
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="85">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">85%</div>
+                            </div>
+                            <h4>TensorFlow</h4>
+                            <p>Advanced</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="88">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">88%</div>
+                            </div>
+                            <h4>OpenAI API</h4>
+                            <p>Advanced</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="80">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">80%</div>
+                            </div>
+                            <h4>PyTorch</h4>
+                            <p>Advanced</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="90">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">90%</div>
+                            </div>
+                            <h4>LangChain</h4>
+                            <p>Expert</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="83">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">83%</div>
+                            </div>
+                            <h4>Computer Vision</h4>
+                            <p>Advanced</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="86">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">86%</div>
+                            </div>
+                            <h4>NLP</h4>
+                            <p>Advanced</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Programming Skills -->
+                <div class="skills-category" id="programming">
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="97">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">97%</div>
+                            </div>
+                            <h4>JavaScript</h4>
+                            <p>Expert</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="88">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">88%</div>
+                            </div>
+                            <h4>Python</h4>
+                            <p>Advanced</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="80">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">80%</div>
+                            </div>
+                            <h4>Java</h4>
+                            <p>Advanced</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="75">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">75%</div>
+                            </div>
+                            <h4>C++</h4>
+                            <p>Intermediate</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="85">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">85%</div>
+                            </div>
+                            <h4>PHP</h4>
+                            <p>Advanced</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Database Skills -->
+                <div class="skills-category" id="database">
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="94">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">94%</div>
+                            </div>
+                            <h4>MongoDB</h4>
+                            <p>Expert</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="91">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">91%</div>
+                            </div>
+                            <h4>MS SQL</h4>
+                            <p>Expert</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="89">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">89%</div>
+                            </div>
+                            <h4>My SQL</h4>
+                            <p>Advanced</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="85">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">85%</div>
+                            </div>
+                            <h4>Firebase</h4>
+                            <p>Advanced</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="82">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">82%</div>
+                            </div>
+                            <h4>MongoDB Atlas</h4>
+                            <p>Advanced</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools Skills -->
+                <div class="skills-category" id="tools">
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="95">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">95%</div>
+                            </div>
+                            <h4>Git / GitHub</h4>
+                            <p>Expert</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="90">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">90%</div>
+                            </div>
+                            <h4>Docker</h4>
+                            <p>Expert</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="88">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">88%</div>
+                            </div>
+                            <h4>AWS</h4>
+                            <p>Advanced</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="92">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">92%</div>
+                            </div>
+                            <h4>Figma</h4>
+                            <p>Expert</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="85">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">85%</div>
+                            </div>
+                            <h4>Kubernetes</h4>
+                            <p>Advanced</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="circular-progress" data-progress="87">
+                                <svg viewBox="0 0 120 120">
+                                    <circle class="bg" cx="60" cy="60" r="54"></circle>
+                                    <circle class="progress" cx="60" cy="60" r="54"></circle>
+                                </svg>
+                                <div class="progress-value">87%</div>
+                            </div>
+                            <h4>CI/CD</h4>
+                            <p>Advanced</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tech Stack -->
+            <div class="tech-stack" data-aos="fade-up">
+                <h3 class="tech-title">My Tech Stack</h3>
+                <div class="tech-marquee">
+                    <div class="tech-track">
+                        <div class="tech-item"><i class="fab fa-react"></i><span>React</span></div>
+                        <div class="tech-item"><i class="fab fa-vuejs"></i><span>Vue.js</span></div>
+                        <div class="tech-item"><i class="fab fa-node-js"></i><span>Node.js</span></div>
+                        <div class="tech-item"><i class="fab fa-python"></i><span>Python</span></div>
+                        <div class="tech-item"><i class="fab fa-aws"></i><span>AWS</span></div>
+                        <div class="tech-item"><i class="fab fa-docker"></i><span>Docker</span></div>
+                        <div class="tech-item"><i class="fab fa-figma"></i><span>Figma</span></div>
+                        <div class="tech-item"><i class="fab fa-git-alt"></i><span>Git</span></div>
+                        <div class="tech-item"><i class="fas fa-database"></i><span>MongoDB</span></div>
+                        <div class="tech-item"><i class="fas fa-fire"></i><span>Firebase</span></div>
+                        <!-- Duplicate for seamless loop -->
+                        <div class="tech-item"><i class="fab fa-react"></i><span>React</span></div>
+                        <div class="tech-item"><i class="fab fa-vuejs"></i><span>Vue.js</span></div>
+                        <div class="tech-item"><i class="fab fa-node-js"></i><span>Node.js</span></div>
+                        <div class="tech-item"><i class="fab fa-python"></i><span>Python</span></div>
+                        <div class="tech-item"><i class="fab fa-aws"></i><span>AWS</span></div>
+                        <div class="tech-item"><i class="fab fa-docker"></i><span>Docker</span></div>
+                        <div class="tech-item"><i class="fab fa-figma"></i><span>Figma</span></div>
+                        <div class="tech-item"><i class="fab fa-git-alt"></i><span>Git</span></div>
+                        <div class="tech-item"><i class="fas fa-database"></i><span>MongoDB</span></div>
+                        <div class="tech-item"><i class="fas fa-fire"></i><span>Firebase</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ SERVICES SECTION ============ -->
+    <section class="services section" id="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">My <span class="gradient-text">Services</span></h2>
+                <p class="section-subtitle">Comprehensive digital solutions tailored to elevate your business and brand</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Custom, high-performance websites built with modern frameworks. From landing pages to complex web applications.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Responsive Design</li>
+                        <li><i class="fas fa-check"></i> SEO Optimized</li>
+                        <li><i class="fas fa-check"></i> Fast Performance</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        <span>Learn More</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Development</h3>
+                    <p>Cross-platform mobile applications using JAVA. Native performance with shared codebase.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> iOS & Android</li>
+                        <li><i class="fas fa-check"></i> React Native</li>
+                        <li><i class="fas fa-check"></i> App Store Ready</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        <span>Learn More</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Beautiful, user-centered designs that convert. From wireframes to polished interfaces with seamless experiences.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> User Research</li>
+                        <li><i class="fas fa-check"></i> Prototyping</li>
+                        <li><i class="fas fa-check"></i> Design Systems</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        <span>Learn More</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI Integration</h3>
+                    <p>Integrate cutting-edge AI into your products. Chatbots, recommendation engines, and intelligent automation.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> OpenAI / GPT</li>
+                        <li><i class="fas fa-check"></i> Machine Learning</li>
+                        <li><i class="fas fa-check"></i> NLP Solutions</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        <span>Learn More</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ PORTFOLIO SECTION ============ -->
+    <section class="portfolio section" id="portfolio">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">My Work</span>
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                <p class="section-subtitle">A selection of my recent work showcasing diverse skills and creative solutions</p>
+            </div>
+
+            <div class="portfolio-filters" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="ai">AI / ML</button>
+            </div>
+
+            <div class="portfolio-grid" id="portfolioGrid">
+                <div class="portfolio-item" data-category="web" data-aos="fade-up">
+                    <div class="portfolio-card tilt-card">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop" alt="Project" loading="lazy">
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <a href="#" class="portfolio-btn" aria-label="View source code on GitHub" title="View source code on GitHub">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>E-Commerce Platform</h3>
+                            <div class="portfolio-tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="mobile" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-card tilt-card">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop" alt="Project" loading="lazy">
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <a href="#" class="portfolio-btn" aria-label="View source code on GitHub" title="View source code on GitHub">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Fitness Tracker Pro</h3>
+                            <div class="portfolio-tags">
+                                <span>React Native</span>
+                                <span>Firebase</span>
+                                <span>TensorFlow</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ai" data-aos="fade-up" data-aos-delay="300">
+                    <div class="portfolio-card tilt-card">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop" alt="Project" loading="lazy">
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <a href="https://github.com/IqraTariq048/Students" class="portfolio-btn" aria-label="View source code on GitHub" title="View source code on GitHub">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>AI Student Assistant</h3>
+                            <div class="portfolio-tags">
+                                <span>OpenAI</span>
+                                <span>React.js</span>
+                                <span>Python</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="web" data-aos="fade-up" data-aos-delay="400">
+                    <div class="portfolio-card tilt-card">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop" alt="Project" loading="lazy">
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <a href="https://github.com/IqraTariq048/Frontend-Web-Development-Projects" class="portfolio-btn" aria-label="View source code on GitHub" title="View source code on GitHub">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Frontend Development Tasks</h3>
+                            <div class="portfolio-tags">
+                                <span>React.js</span>
+                                <span>Node.js</span>
+                                <span>MSSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ PROJECT MODAL ============ -->
+    <div class="project-modal" id="projectModal">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose" aria-label="Close modal" title="Close modal">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body" id="modalBody">
+                <!-- Dynamic content -->
+            </div>
+        </div>
+    </div>
+
+    <!-- ============ CERTIFICATES SECTION ============ -->
+    <section class="certificates section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Certificates & <span class="gradient-text">Achievements</span></h2>
+                <p class="section-subtitle">Recognized expertise through industry certifications and notable accomplishments</p>
+            </div>
+
+            <div class="certificates-grid">
+                <div class="certificate-card" data-aos="fade-up">
+                    <div class="cert-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <div class="cert-content">
+                        <span class="cert-year">2023</span>
+                        <h4>AWS Solutions Architect Professional</h4>
+                        <p>Amazon Web Services</p>
+                    </div>
+                    <div class="cert-badge">
+                        <i class="fas fa-award"></i>
+                    </div>
+                </div>
+
+                <div class="certificate-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="cert-icon">
+                        <i class="fab fa-google"></i>
+                    </div>
+                    <div class="cert-content">
+                        <span class="cert-year">2022</span>
+                        <h4>Google Cloud Professional Developer</h4>
+                        <p>Google Cloud</p>
+                    </div>
+                    <div class="cert-badge">
+                        <i class="fas fa-award"></i>
+                    </div>
+                </div>
+
+                <div class="certificate-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="cert-icon">
+                        <i class="fab fa-meta"></i>
+                    </div>
+                    <div class="cert-content">
+                        <span class="cert-year">2022</span>
+                        <h4>Meta Frontend Developer Certificate</h4>
+                        <p>Meta (Facebook)</p>
+                    </div>
+                    <div class="cert-badge">
+                        <i class="fas fa-award"></i>
+                    </div>
+                </div>
+
+                <div class="certificate-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="cert-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="cert-content">
+                        <span class="cert-year">2023</span>
+                        <h4>Awwwards Site of the Day</h4>
+                        <p>Best Web Design Award</p>
+                    </div>
+                    <div class="cert-badge">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                </div>
+
+                <div class="certificate-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="cert-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="cert-content">
+                        <span class="cert-year">2022</span>
+                        <h4>CSS Design Awards Winner</h4>
+                        <p>UI Design Excellence</p>
+                    </div>
+                    <div class="cert-badge">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                </div>
+
+                <div class="certificate-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="cert-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="cert-content">
+                        <span class="cert-year">2021</span>
+                        <h4>Top Rated Plus - Upwork</h4>
+                        <p>Elite Freelancer Status</p>
+                    </div>
+                    <div class="cert-badge">
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS SECTION ============ -->
+    <section class="testimonials section" id="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Client Reviews</span>
+                <h2 class="section-title">What Clients <span class="gradient-text">Say</span></h2>
+                <p class="section-subtitle">Hear from the amazing people I've had the pleasure to work with</p>
+            </div>
+
+            <div class="swiper testimonials-swiper" data-aos="fade-up">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p class="testimonial-text">
+                                "Alex delivered an exceptional website that exceeded all our expectations. His attention to detail, 
+                                technical expertise, and creative vision transformed our online presence completely. Highly recommended!"
+                            </p>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop" alt="Client">
+                                <div class="author-info">
+                                    <h4>Sarah Johnson</h4>
+                                    <p>CEO, TechStart Inc.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p class="testimonial-text">
+                                "Working with Alex was a game-changer for our startup. He built our entire platform from scratch 
+                                and it's been rock-solid. His ability to understand our vision and translate it into code is remarkable."
+                            </p>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop" alt="Client">
+                                <div class="author-info">
+                                    <h4>Michael Chen</h4>
+                                    <p>Founder, InnovateLab</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p class="testimonial-text">
+                                "Alex is not just a developer, he's a true partner. He brought innovative ideas to the table and 
+                                delivered a product that our users absolutely love. Communication was excellent throughout."
+                            </p>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop" alt="Client">
+                                <div class="author-info">
+                                    <h4>Emily Rodriguez</h4>
+                                    <p>Marketing Director, BrandCo</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p class="testimonial-text">
+                                "Exceptional work on our e-commerce platform. Alex's expertise in both frontend and backend 
+                                development resulted in a seamless user experience. Sales increased by 150% after launch!"
+                            </p>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop" alt="Client">
+                                <div class="author-info">
+                                    <h4>David Thompson</h4>
+                                    <p>Owner, ShopElite</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p class="testimonial-text">
+                                "Alex's AI integration work was phenomenal. He built a custom recommendation engine that 
+                                dramatically improved user engagement. His knowledge of machine learning is impressive."
+                            </p>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop" alt="Client">
+                                <div class="author-info">
+                                    <h4>James Wilson</h4>
+                                    <p>CTO, DataFlow Systems</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ FAQ SECTION ============ -->
+    <section class="faq section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">FAQ</span>
+                <h2 class="section-title">Frequently Asked <span class="gradient-text">Questions</span></h2>
+                <p class="section-subtitle">Answers to common questions about my services and process</p>
+            </div>
+
+            <div class="faq-container" data-aos="fade-up">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What services do you offer?</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>I offer a comprehensive range of digital services including web development, mobile app development, 
+                        UI/UX design, cloud architecture, AI integration, and technical consulting. Each project is tailored 
+                        to meet your specific needs and goals.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How long does a typical project take?</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Project timelines vary based on complexity and scope. A simple landing page might take 1-2 weeks, 
+                        while a complex web application could take 2-4 months. I'll provide a detailed timeline during our 
+                        initial consultation.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What is your pricing structure?</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>I offer both fixed-price projects and hourly rates depending on the nature of the work. For most 
+                        projects, I prefer fixed pricing to provide clarity. Contact me for a custom quote based on your 
+                        specific requirements.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do you provide ongoing support?</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! I offer maintenance packages and ongoing support to ensure your project continues to run 
+                        smoothly. This includes bug fixes, updates, performance optimization, and feature additions as needed.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What technologies do you specialize in?</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>I specialize in modern JavaScript frameworks (React, Next.js, Vue), Node.js, Python, cloud platforms 
+                        (AWS, GCP), and AI/ML technologies. I stay current with the latest tools and best practices to deliver 
+                        cutting-edge solutions.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Can you work with my existing team?</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely! I frequently collaborate with in-house teams as a technical consultant or additional 
+                        developer. I'm comfortable with agile methodologies, code reviews, and collaborative workflows using 
+                        tools like GitHub, Jira, and Slack.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ CONTACT SECTION ============ -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Let's Work <span class="gradient-text">Together</span></h2>
+                <p class="section-subtitle">Have a project in mind? Let's discuss how we can bring your vision to life</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Let's talk about your project</h3>
+                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span>Email Me</span>
+                                <a href="mailto:iqra02725@gmail.com">iqra02725@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span>Call Me</span>
+                                <a href="tel:+92 301-4911207">+92 301-4911207</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span>Location</span>
+                                <a href="#">Lahore, Pakistan</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form class="contact-form" id="contactForm" novalidate>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="John Doe" required>
+                                <span class="form-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                                <span class="form-error"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000">
+                                <span class="form-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="Project Discussion" required>
+                                <span class="form-error"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="budget">Project Budget</label>
+                            <select id="budget" name="budget" required>
+                                <option value="">Select budget range</option>
+                                <option value="1k-5k">$1,000 - $5,000</option>
+                                <option value="5k-10k">$5,000 - $10,000</option>
+                                <option value="10k-25k">$10,000 - $25,000</option>
+                                <option value="25k+">$25,000+</option>
+                            </select>
+                            <span class="form-error"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                            <span class="form-error"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary submit-btn magnetic no-ripple">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                            <div class="btn-loader">
+                                <div class="spinner"></div>
+                            </div>
+                        </button>
+
+                        <div class="form-status" id="formStatus"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <p class="footer-copy">© 2026 Iqra Tariq. All rights reserved.</p>
+            <div class="social-icons">
+                        <a href="https://github.com/IqraTariq048" class="social-icon magnetic" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/iqra-tariq-3ba110341/" class="social-icon magnetic" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============ BACK TO TOP ============ -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+        <svg class="back-to-top-progress" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="45"></circle>
+        </svg>
+    </button>
+
+    <!-- ============ SCRIPTS ============ -->
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <!-- Custom JS -->
+    <script src="index.js"></script>
+</body>
+</html>
